@@ -1,4 +1,8 @@
-import streamlitimport pandasimport requestsimport snowflake.connectorfrom urllib.error import URLErrorstreamlit.title('My Partents New Healthy Diner')
+import streamlit 
+import pandas
+import requests
+import snowflake.connectorfrom urllib.error 
+import URLErrorstreamlit.title('My Partents New Healthy Diner')
 streamlit.header('Breakfast Menu')
 streamlit.text('🥣Omega 3 & Blueberry Oatmeal')
 streamlit.text('🥗Kale, Spinach & Rocket Smoothie')
